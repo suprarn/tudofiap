@@ -1,0 +1,19 @@
+RELATÓRIO DE FEATURES - PIPELINE EXPLÍCITO
+==================================================
+
+Dataset Final: (3586, 49)
+
+FEATURES POR CATEGORIA:
+------------------------------
+OHLC/Volume (5): ['Abertura_shifted', 'Máxima_shifted', 'Mínima_shifted', 'Último_shifted', 'Volume_shifted']
+
+Temporais (8): ['Data', 'day_of_week', 'month', 'quarter', 'year', 'is_month_start', 'is_month_end', 'is_quarter_end']
+
+Técnicas (18): ['Máxima_shifted', 'Mínima_shifted', 'MA_5_shifted', 'MA_10_shifted', 'MA_20_shifted', 'MA_50_shifted', 'BB_Upper_shifted', 'BB_Lower_shifted', 'BB_Width_shifted', 'BB_Position_shifted', 'RSI_shifted', 'MACD_shifted', 'atr_5_shifted', 'atr_10_shifted', 'atr_20_shifted', 'volatility_5_shifted', 'volatility_10_shifted', 'volatility_20_shifted']
+
+Shifted (31): ['Abertura_shifted', 'Máxima_shifted', 'Mínima_shifted', 'Último_shifted', 'Volume_shifted', 'MA_5_shifted', 'MA_10_shifted', 'MA_20_shifted', 'MA_50_shifted', 'BB_Upper_shifted', 'BB_Lower_shifted', 'BB_Width_shifted', 'BB_Position_shifted', 'RSI_shifted', 'MACD_shifted', 'Signal_Line_shifted', 'atr_5_shifted', 'atr_10_shifted', 'atr_20_shifted', 'volatility_5_shifted', 'volatility_10_shifted', 'volatility_20_shifted', 'Price_Range_shifted', 'Price_Position_shifted', 'Gap_shifted', 'hl_close_ratio_shifted', 'true_range_shifted', 'high_close_prev_shifted', 'low_close_prev_shifted', 'returns_shifted', 'Variacao_shifted']
+
+Candlestick (11): ['high_close_prev_shifted', 'low_close_prev_shifted', 'doji_prev', 'hammer_prev', 'shooting_star_prev', 'engulfing_bullish_prev', 'bullish_candle_prev', 'bearish_candle_prev', 'body_size_prev', 'upper_shadow_prev', 'lower_shadow_prev']
+
+Target (1): ['Target']
+
