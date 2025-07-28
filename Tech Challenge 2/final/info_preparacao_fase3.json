@@ -1,0 +1,11 @@
+{
+  "janela_tamanho": 5,
+  "proporcao_treino": 0.8,
+  "data_corte": "2013-11-13 00:00:00",
+  "total_features": 90,
+  "amostras_treino": 2853,
+  "amostras_teste": 714,
+  "features_originais": 18,
+  "periodo_treino": "2013-11-14 00:00:00 até 2025-05-26 00:00:00",
+  "periodo_teste": "2011-01-03 00:00:00 até 2013-11-13 00:00:00"
+}
