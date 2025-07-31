@@ -2,8 +2,6 @@
   "janela_tamanho": 5,
   "dias_teste": 30,
   "proporcao_validacao": 0.2,
-  "data_corte_validacao": "2013-12-18 00:00:00",
-  "data_corte_teste": "2011-02-14 00:00:00",
   "total_features": 100,
   "amostras_treino": 2830,
   "amostras_validacao": 707,
