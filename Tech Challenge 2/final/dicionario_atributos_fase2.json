@@ -1,0 +1,80 @@
+{
+  "Return_Lag_1": {
+    "calculo": "log(Close(t-1) / Close(t-1-1))",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Captura o momentum de 1 dia(s) atrás",
+    "categoria": "Momento"
+  },
+  "Return_Lag_2": {
+    "calculo": "log(Close(t-2) / Close(t-2-1))",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Captura o momentum de 2 dia(s) atrás",
+    "categoria": "Momento"
+  },
+  "Return_Lag_3": {
+    "calculo": "log(Close(t-3) / Close(t-3-1))",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Captura o momentum de 3 dia(s) atrás",
+    "categoria": "Momento"
+  },
+  "Return_Lag_4": {
+    "calculo": "log(Close(t-4) / Close(t-4-1))",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Captura o momentum de 4 dia(s) atrás",
+    "categoria": "Momento"
+  },
+  "Return_Lag_5": {
+    "calculo": "log(Close(t-5) / Close(t-5-1))",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Captura o momentum de 5 dia(s) atrás",
+    "categoria": "Momento"
+  },
+  "SMA_5": {
+    "calculo": "Média móvel simples de 5 períodos",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Tendência de curto prazo",
+    "categoria": "Tendência"
+  },
+  "SMA_10": {
+    "calculo": "Média móvel simples de 10 períodos",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Tendência de curto prazo",
+    "categoria": "Tendência"
+  },
+  "SMA_20": {
+    "calculo": "Média móvel simples de 20 períodos",
+    "dados_entrada": "Close",
+    "intuicao_financeira": "Tendência de médio prazo",
+    "categoria": "Tendência"
+  },
+  "Close_SMA_5_Ratio": {
+    "calculo": "Close / SMA_5",
+    "dados_entrada": "Close, SMA",
+    "intuicao_financeira": "Posição relativa do preço vs tendência de 5 dias",
+    "categoria": "Tendência"
+  },
+  "Close_SMA_10_Ratio": {
+    "calculo": "Close / SMA_10",
+    "dados_entrada": "Close, SMA",
+    "intuicao_financeira": "Posição relativa do preço vs tendência de 10 dias",
+    "categoria": "Tendência"
+  },
+  "Close_SMA_20_Ratio": {
+    "calculo": "Close / SMA_20",
+    "dados_entrada": "Close, SMA",
+    "intuicao_financeira": "Posição relativa do preço vs tendência de 20 dias",
+    "categoria": "Tendência"
+  },
+  "SMA_5_10_Ratio": {
+    "calculo": "SMA_5 / SMA_10",
+    "dados_entrada": "SMA_5, SMA_10",
+    "intuicao_financeira": "Divergência entre tendências de curto e médio prazo",
+    "categoria": "Tendência"
+  },
+  "SMA_10_20_Ratio": {
+    "calculo": "SMA_10 / SMA_20",
+    "dados_entrada": "SMA_10, SMA_20",
+    "intuicao_financeira": "Divergência entre tendências de médio prazo",
+    "categoria": "Tendência"
+  }
+}
